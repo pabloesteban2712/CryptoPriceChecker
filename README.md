@@ -1,3 +1,4 @@
+feature/nuevas-caracteristicas
 ## Bitcoin & Cryptocurrency Price Checker ##
 Este proyecto es un script en Python que permite consultar los precios de Bitcoin y otras criptomonedas en tiempo real utilizando la API pública de CoinGecko. Con esta herramienta, puedes consultar el precio de varias criptomonedas a la vez en monedas fiat como USD o EUR, obteniendo resultados precisos y formateados.
 
@@ -21,11 +22,12 @@ El precio actual de Bitcoin es:
 El precio actual de Ethereum es:
   - $4000.00 USD
   - €3400.00 EUR
+  
 Si introduces una criptomoneda o moneda incorrecta, se mostrará un mensaje de error como:
-
 bash
 Copiar código
 No se pudo obtener el precio de xyzcoin. Puede que esté mal escrito o no exista.
+
 🧑‍💻 Estructura del Código
 Funciones principales:
 obtener_precio(ids, monedas):
@@ -36,9 +38,9 @@ mostrar_precio(cripto, price_usd, price_eur):
 
 Imprime los precios de las criptomonedas en formato claro.
 main():
-
 Solicita al usuario las criptomonedas y monedas a consultar.
 Itera sobre las criptomonedas para obtener sus precios y mostrarlos.
+
 Manejo de errores:
 Errores de conexión y tiempo de espera.
 Verificación de criptomonedas o monedas inexistentes.
@@ -53,4 +55,3 @@ Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir es
 
 🤝 Contribuciones
 ¡Contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en abrir un issue o enviar un pull request.
-
