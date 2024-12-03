@@ -6,35 +6,12 @@ Consulta múltiple: Introduce varias criptomonedas y monedas fiat para obtener p
 Formato claro: Los precios se muestran con dos decimales para facilitar la lectura.
 Manejo de errores robusto: El programa gestiona problemas de conexión, datos incompletos y entradas incorrectas.
 Interfaz interactiva: Introduce datos fácilmente a través de la terminal.
+
 🛠️ Requisitos
 Python 3.x
 Librería requests
+
 📦 Instalación
-Clona este repositorio:
-
-bash
-Copiar código
-git clone https://github.com/tuusuario/bitcoin-crypto-price-checker.git
-cd bitcoin-crypto-price-checker
-Instala las dependencias requeridas:
-
-bash
-Copiar código
-pip install requests
-📝 Uso
-Ejecuta el script en tu terminal:
-
-bash
-Copiar código
-python crypto_price_checker.py
-Introduce las criptomonedas y monedas fiat según lo solicite el programa:
-
-Ejemplo de criptomonedas: bitcoin, ethereum, binance
-Ejemplo de monedas fiat: usd, eur
-Verás una salida como esta:
-
-bash
-Copiar código
 Introduce las criptomonedas separadas por comas (ej. bitcoin, ethereum, binance): bitcoin, ethereum
 Introduce las monedas separadas por comas (ej. usd, eur): usd, eur
 
